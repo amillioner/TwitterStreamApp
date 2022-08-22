@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.6.48" />
+    <PackageReference Include="StackExchange.Redis.Extensions.AspNetCore" Version="8.0.5" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TwitterStreamApp.Common\Twitter.StreamApp.Common.csproj" />
+    <ProjectReference Include="..\TwitterStreamApp.Data\Twitter.StreamApp.Data.csproj" />
+  </ItemGroup>
+
+
+</Project>
